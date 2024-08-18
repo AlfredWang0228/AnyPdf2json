@@ -173,6 +173,3 @@ project_root/
 
 7. **system_prompt.txt**: 
    - Contains the system prompt used to instruct the LLM on how to process the input.
-
-8. **test_data_processor.py**: 
-   - Contains unit tests for the data processing functionality.
