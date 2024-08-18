@@ -1,0 +1,68 @@
+{
+  "Adverse Events (AE)": {
+    "External ID": "AE",
+    "Design Object Name": "AE",
+    "Short Label": "Adverse Events",
+    "Restricted": false,
+    "Repeats, Max": 999,
+    "Linked Form(s)": [
+      "CM2",
+      "DD",
+      "DSES",
+      "PE",
+      "PE2",
+      "PM",
+      "PR",
+      "SU"
+    ]
+  },
+  "Adverse Event Name": {
+    "External ID": "AETERM",
+    "Required": true,
+    "Max Length": 100,
+    "SDTM Name": "AETERM"
+  },
+  "Start Date and Time": {
+    "clockName": "AESTDTC",
+    "External ID": "AESTDTC",
+    "Required": true,
+    "No Future Date": true,
+    "Hint Label": "24-hour clock"
+  },
+  "Ongoing?": {
+    "Name": "AEONGO",
+    "External ID": "AEONGO",
+    "Required": true,
+    "Codelist": "NY",
+    "Codelist Style": "Radio Buttons - Horizontal",
+    "Rule for Disable": "R_DISPLAY_AEENDTC_SHOW"
+  },
+  "End Date and Time": {
+    "clockName": "AEENDTC",
+    "External ID": "AEENDTC",
+    "Required": true,
+    "No Future Date": true,
+    "Hint Label": "24-hour clock"
+  },
+  "Severity": {
+    "Name": "AESEV",
+    "External ID": "AESEV",
+    "Required": true,
+    "Codelist": "AESEV",
+    "Codelist Style": "Radio Buttons - Horizontal",
+    "Options": [
+      {
+        "Value": "MILD",
+        "Label": "Mild"
+      },
+      {
+        "Value": "MODERATE",
+        "Label": "Moderate"
+      },
+      {
+        "Value": "SEVERE",
+        "Label": "Severe"
+      }
+    ]
+  }
+}

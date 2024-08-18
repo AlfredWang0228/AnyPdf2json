@@ -1,0 +1,5 @@
+Please convert the following Markdown-formatted string, which has been extracted from a PDF table, into a JSON string. 
+Be aware that the Markdown may not perfectly preserve the original layout of the PDF due to limitations in handling table structures and blank lines.
+Ensure that the JSON output accurately represents the structure and data of the content.
+If certain elements appear ambiguous or misaligned in the Markdown, make reasonable assumptions to maintain data integrity.
+Expected output: A JSON string where each data point is clearly defined, categorized, and structured.
