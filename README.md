@@ -44,7 +44,7 @@ Before running this project, ensure you have the following installed:
 
 2. Download and run the required Ollama model:
    ```
-   ollama run qwen2:7b
+   ollama run llama3.1:70b
    ```
    Note: Ensure the model name in the command matches the one specified in your `config.yaml` file.
 
